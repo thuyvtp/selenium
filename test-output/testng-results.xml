@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-27T11:14:14Z" name="Default suite" finished-at="2020-08-27T11:14:47Z" duration-ms="32659">
+  <suite started-at="2020-08-27T11:26:19Z" name="Default suite" finished-at="2020-08-27T11:26:49Z" duration-ms="30504">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@4b8ee4de]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-08-27T11:14:14Z" name="Default test" finished-at="2020-08-27T11:14:47Z" duration-ms="32659">
+    <test started-at="2020-08-27T11:26:19Z" name="Default test" finished-at="2020-08-27T11:26:49Z" duration-ms="30504">
       <class name="runner.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:14:14Z" name="setUpClass" finished-at="2020-08-27T11:14:14Z" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:26:19Z" name="setUpClass" finished-at="2020-08-27T11:26:19Z" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:14:14Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-27T11:14:47Z" duration-ms="32369" status="FAIL">
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:26:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-27T11:26:49Z" duration-ms="30220" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -33,16 +33,16 @@
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'MacBook-Pro-cua-LAP00837.local', ip: 'fe80:0:0:0:422:9ad2:dd44:128d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17631, moz:profile: /var/folders/44/00881rqs6hq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ada12976-a1b8-bb4a-a341-ae719f6e920d]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17719, moz:profile: /var/folders/44/00881rqs6hq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f182253-e941-484c-baaf-ebc1dcf308ea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'MacBook-Pro-cua-LAP00837.local', ip: 'fe80:0:0:0:422:9ad2:dd44:128d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17631, moz:profile: /var/folders/44/00881rqs6hq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ada12976-a1b8-bb4a-a341-ae719f6e920d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17719, moz:profile: /var/folders/44/00881rqs6hq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f182253-e941-484c-baaf-ebc1dcf308ea
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,16 +54,17 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:468)
-at stepDefinitions.LoginTest.user_input_correct_password(LoginTest.java:108)
-at ✽.user input correct password(file:src/test/java/features/Login.feature:8)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+at POM.HomePage.getTitlePage(HomePage.java:24)
+at stepDefinitions.LoginTest.verify_user_login_success(LoginTest.java:120)
+at ✽.Verify user login success(file:src/test/java/features/Login.feature:10)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:14:47Z" name="tearDownClass" finished-at="2020-08-27T11:14:47Z" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@4b8ee4de]" started-at="2020-08-27T11:26:49Z" name="tearDownClass" finished-at="2020-08-27T11:26:49Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
